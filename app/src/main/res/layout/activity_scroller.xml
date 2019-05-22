@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll"
+    tools:context=".activity.ScrollerActivity">
+    <TextView
+        android:id="@+id/tv"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:text="Android"
+        android:layout_height="200dp" />
+
+    <LinearLayout
+        android:background="#ffddcc"
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:background="@color/colorPrimary"
+            android:onClick="scrollerBy"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="scrollerBy"
+            android:layout_height="match_parent" />
+        <Button
+            android:onClick="scrollerTo"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:background="@color/colorAccent"
+            android:text="scrollerTo"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <Button
+        android:onClick="scrollerStart"
+
+        android:layout_width="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="scrollerTo"
+        android:layout_height="wrap_content" />
+    <com.yichao.customview.view.BaseScrollerViewGroup
+        android:layout_width="match_parent"
+        android:id="@+id/base_view"
+        android:layout_height="match_parent"
+
+        />
+
+
+
+
+
+
+</LinearLayout>

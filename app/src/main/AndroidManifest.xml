@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yichao.customview">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.ScrollerActivity"></activity>
+        <activity android:name=".activity.FlowlayotActivity" />
+        <activity android:name=".activity.CircleViewActivity" />
+        <activity android:name=".activity.TextViewActivity" />
+        <activity android:name=".activity.GuaGuaActivity" />
+        <activity android:name=".activity.CirclePhotoActivity" />
+        <activity android:name=".activity.LayerViewActivity" />
+        <activity android:name=".activity.TextCenterActivity" />
+        <activity android:name=".activity.LinearGradientActivity" />
+        <activity android:name=".activity.ShawViewActivity" />
+        <activity android:name=".activity.DrawRectActivity" />
+        <activity android:name=".activity.DrawCurveActivity" />
+        <activity android:name=".activity.WatchActivity" />
+        <activity android:name=".activity.ClipViewActivity" />
+        <activity android:name=".activity.CanvasTranslateActivity" />
+        <activity android:name=".activity.BallMoveActivity" />
+        <activity android:name=".worker.Work1Activity" />
+        <activity android:name=".worker.Work2Activity" />
+        <activity android:name=".activity.OperationPathActivity" />
+        <activity android:name=".activity.BezierActivity" />
+        <activity android:name=".activity.FiveStarActivity" />
+        <activity android:name=".activity.DrawLineActivity" />
+        <activity android:name=".activity.DrawArcActivity" />
+        <activity android:name=".activity.ShowBitmapActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
